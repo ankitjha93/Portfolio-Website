@@ -16,57 +16,57 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
    
-  {
-     num: '01',
-     category : 'frontend',
-     title : 'project 1',
-     description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium neque tempora voluptates veritatis, minus eligendi!',
+//   {
+//      num: '01',
+//      category : 'MERN Stack',
+//      title : 'Expense Tracker',
+//      description : 'Implemented state management in React for real-time updates on expenses and budget tracking.',
      
-     stack : [
-          {name :'HTML 5'},
-          {name :'CSS 3'},
-          {name :'JavaScript'},
+//      stack : [
+//           {name :'React'},
+//           {name :'Node js'},
+          
 
 
-     ],
+//      ],
 
-     image : '/project-1',
-     live : '',
-     github : '',
-  },
-  {
-     num: '02',
-     category : 'Full Stack',
-     title : 'project 2',
-     description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium neque tempora voluptates veritatis, minus eligendi!',
+//      image : '/expense-tracker.png',
+//      live : '',
+//      github : 'https://github.com/ankitjha93/expense-tracker_fullstack',
+//   },
+//   {
+//      num: '02',
+//      category : 'Full Stack',
+//      title : 'PrepSmart AI',
+//      description : 'Developed a Full Stack AI platform for mock interviews with dynamic question generation and real-time feedback.',
      
-     stack : [
-          {name :'Next Js'},
-          {name :'Tailwind CSS'},
-          {name :'Node Js'},
+//      stack : [
+//           {name :'Next Js'},
+//           {name :'Drizzle ORM'},
+//           {name :'Gemini API'},
 
 
-     ],
+//      ],
 
-     image : '/project-2',
-     live : '',
-     github : '',
-  },
+//      image : '/PrepSmart-AI.png',
+//      live : 'https://prepsmart-jade.vercel.app',
+//      github : 'https://github.com/ankitjha93/PrepSmart-AI-2.0',
+//   },
   {
      num: '03',
-     category : 'Full Stack',
-     title : 'project 3',
-     description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium neque tempora voluptates veritatis, minus eligendi!',
+     category : 'Full Stack Clone',
+     title : 'Netflix Clone',
+     description : 'Implemented Google Authentication for secure user login and streamlined authentication flow.',
      
      stack : [
-          {name :'Next Js'},
-          {name :'Tailwind CSS'},
+          {name :'Firebase'},
+          {name :'Stripe'},
 
      ],
 
-     image : '/project-3',
-     live : '',
-     github : '',
+     image : '/netflix-clone.png',
+     live : 'https://playflare.netlify.app/',
+     github : 'https://github.com/ankitjha93/Netflix',
   },
 ]
 

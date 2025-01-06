@@ -47,13 +47,13 @@ function Contact() {
                 <div className="xl:w-[54%] order-2 xl:order-none ">
                     <form action="" className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
                         <h3 className="text-4xl text-accent">Let's work together</h3>
-                        <p className="text-white/60">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, sequi voluptatum? Accusantium harum minus tenetur!</p>
+                        <p className="text-white/60">Looking for someone to bring your ideas to life? I’m here to help! Whether you need a modern, responsive website, a user-friendly app design, a memorable logo, or SEO strategies to boost your online presence, I’ve got you covered. Let’s collaborate to create something impactful and tailored to your vision.</p>
                         {/* input */}
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <Input type='firstname' placeholder = 'Firstname'/>
-                            <Input type='lastname' placeholder = 'Lastname'/>
-                            <Input type='email' placeholder = 'Email address'/>
-                            <Input type='phone' placeholder = 'Phone number'/>
+                            <Input type='firstname' placeholder = 'First Name'/>
+                            <Input type='lastname' placeholder = 'Last Name'/>
+                            <Input type='email' placeholder = 'Email Address'/>
+                            <Input type='phone' placeholder = 'Phone Number'/>
 
                         </div>
                         {/* select */}
@@ -85,7 +85,7 @@ function Contact() {
                           size = 'md' 
                           className = 'max-w-40'>
                             
-                            Send message
+                            Send Message
                             
                             </Button>
                     </form>

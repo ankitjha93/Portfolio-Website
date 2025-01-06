@@ -3,6 +3,7 @@ import Photo from "@/components/Photo"
 import Social from "@/components/Social"
 import Stats from "@/components/Stats"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 import {FiDownload} from 'react-icons/fi'
 
 function Home() {
@@ -14,11 +15,17 @@ function Home() {
             <div className="text-center xl:text-left order-2 xl:order-none">
               <span className="text-xl">Software Developer</span>
               <h1 className="h1 mb-6">Hello I'm<br/><span className="text-accent">Ankit Jha</span></h1>
-              <p className="max-w-[500px] mb-9 text-white/80">I excel at crafting elegant digital experiences and I am proficient in various programming languages and technologies.</p>
+              <p className="max-w-[500px] mb-9 text-white/80">I excel at crafting elegant digital experiences and Turning ideas into real life products is my calling.</p>
               {/* btn and socials */}
               <div className="flex flex-col xl:flex-row items-center gap-8">
                  <Button variant = 'outline' size = 'lg' className = 'uppercase flex items-center gap-2'>
-                  <span>Download CV</span>
+                 
+                  <span>
+                    {/* <Image src='/Ankit Jha(Resume)'priority quality={100} fill alt="" className="object-contain "/> */}
+                    
+                    Download Resume
+                    
+                    </span>
                   <FiDownload className="text-xl"/>
                  </Button>
                  <div className="mb-8 xl:mb-0">

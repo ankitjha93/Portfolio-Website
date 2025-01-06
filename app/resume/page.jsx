@@ -22,7 +22,7 @@ import {
 
 const about = {
   title : 'About me',
-  description : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe delectus similique, veritatis id explicabo voluptatum dolorum eos iusto, incidunt veniam ipsam quae labore?',
+  description : 'Hi, my name is Ankit Jha, and I’m a recent B.Tech graduate in Computer Science and Engineering from Chouksey Engineering College, Bilaspur. During my studies, I developed a strong foundation in React.js, Node.js, Drizzle ORM, and MongoDB',
   info : [
     {
        fieldName : 'Name',
@@ -56,7 +56,7 @@ const about = {
 const experience = {
     icon : '',
     title : 'My Experience',
-  description : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe delectus similique, veritatis id explicabo voluptatum dolorum eos iusto, incidunt veniam ipsam quae labore?',
+  description : 'Designed and implemented a landing page with a focus on user engagement, optimizing layout and visuals for UI/UX.',
   
    items : [
     {
@@ -70,7 +70,7 @@ const experience = {
 const education = {
   icon : '',
   title : 'My Education',
-description : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe delectus similique, veritatis id explicabo voluptatum dolorum eos iusto, incidunt veniam ipsam quae labore?',
+description : 'Pursing Bachelor of Technology in Computer Science from Chouksey Engineering College, Passout Batch 2025',
 
  items : [
   {
@@ -86,7 +86,7 @@ description : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe d
 
 const skills = {
   title : 'My Skills',
-description : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe delectus similique, veritatis id explicabo voluptatum dolorum eos iusto, incidunt veniam ipsam quae labore?',
+description : 'I specialize in web development, UI/UX design, logo design, and SEO, combining technical expertise with creativity to deliver impactful solutions. I build responsive websites using modern tools like React, Next.js, and Tailwind CSS, focusing on functionality and user experience. My UI/UX designs are intuitive and user-centered, while my logo designs create memorable brand identities. With a strong foundation in SEO tools like Google Analytics, I optimize websites to enhance visibility and drive measurable growth.',
     skillList : [
       {
         icon : <FaHtml5/>,
